@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>grox.info model theory</title>
+  <title>grox.info token</title>
   <meta name="description" content="grox.info is an experiment in creating a knowledge graph for model theory vocabulary">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="og:url" content="https://grox.info/">
@@ -20,8 +20,7 @@
 </head>
 
 <body>
-  <h1>The basic boilerplate structure has been added</h1>
-  <a href="BT2y5FG6rnmlTkA5DoDZeLWp">token</a>
+  <h1>this page explains the word 'token'</h1>  
 
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
