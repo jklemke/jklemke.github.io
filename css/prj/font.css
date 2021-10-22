@@ -1,0 +1,7 @@
+/* font.css centralizes all font styles 
+   ========================================================================== */
+
+body {font-family: "Myriad Pro","Segoe UI",Helvetica, Arial, sans-serif;}
+h1 {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+p, td, th {font-family: Georgia, 'Times New Roman', Times, serif;}
+td, th {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}

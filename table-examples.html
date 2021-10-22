@@ -1,0 +1,205 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>grox.info model theory</title>
+  <meta name="description" content="grox.info is an experiment in creating a knowledge graph for model theory vocabulary">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="og:url" content="https://grox.info/">
+  <meta name="og:title" content="grox.info">
+  <meta name="og:type" content="website">
+  <meta name="og:description" content="grox.info is an experiment in creating a knowledge graph for model theory vocabulary">
+  <meta name="og:image" content="https://grox.info/img/Grox3.gif">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="css/lib/normalize.css">
+  <link rel="stylesheet" href="css/lib/boilerplate.css">
+  <link rel="stylesheet" href="css/prj/core.css">  
+  <link rel="author" href="humans.txt" />
+  <meta name="theme-color" content="#fafafa">  
+</head>
+<body>
+  <header>
+    <h1>grox.info Model Theory Glossary</h1>
+    <nav>
+			<ul class="navlist">
+				<li><a href="/">Home</a></li>
+				<li><a href="#">nav 2</a></li>
+			</ul>
+		</nav>
+    <p>grox.info is an experiment in creating a knowledge graph for the vocabulary of model theory, first order logic, semantic web and similar attempts to formalize semantics.</p>
+  </header>
+	<div class="main-wrapper">
+    <main>
+      <section>
+        <h1>Examples of HTML tables as data structures</h1>
+        <h2>an empty array</h2>
+        <table>
+          <tr></tr>
+        </table>
+        <h2>an array with 3 elements</h2>
+        <table class="table table-bordered">
+          <tr>
+            <td>1</td>
+            <td>true</td>
+            <td>three</td>
+          </tr>
+        </table>
+        <h2>nested arrays</h2>
+        <table class="table table-bordered">
+          <tr>
+            <td>
+              <table class="table table-bordered">
+                <tr>
+                  <td>1</td>
+                  <td>true</td>
+                  <td>three</td>
+                </tr>
+              </table>
+            </td>
+            <td>
+              <table class="table table-bordered">
+                <tr>
+                  <td>4</td>
+                  <td>five</td>
+                  <td>0x6</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+     
+        <h2>an object with an array</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>animals</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <table class="table table-bordered">
+                  <tr>
+                    <td>panda</td>
+                    <td>crocodile</td>
+                    <td>walrus</td>
+                    <td>orca</td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <h2>an object with 2 elements</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>width</th>
+              <th>height</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1920</td>
+              <td>1080</td>
+            </tr>
+          </tbody>
+        </table>
+      
+        <h2>nested objects</h2>
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th>portfolio-date</th>
+              <th>portfolio-contents</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2020-08-17</td>
+              <td>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>width</th>
+                      <th>height</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>image1</td>
+                      <td>1920</td>
+                      <td>1080</td>
+                    </tr>
+                    <tr>
+                      <td>image2</td>
+                      <td>760</td>
+                      <td>1020</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+            <tr>
+              <td>2020-10-11</td>
+              <td>
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th>name</th>
+                      <th>width</th>
+                      <th>height</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>image99</td>
+                      <td>1920</td>
+                      <td>1080</td>
+                    </tr>
+                    <tr>
+                      <td>image76</td>
+                      <td>80</td>
+                      <td>80</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <aside>		
+		<header>
+			<h1>Aside</h1>
+			<nav>
+				<ul class="navlist">
+					<li><a href="#">Link1</a></li>
+					<li><a href="#">Link2</a></li>
+				</ul>
+			</nav>
+		</header>
+		<ul class="asidelist">
+			<li>Aside item</li>
+			<li>Aside item</li>
+			<li>Aside item</li>
+		</ul>			
+	</aside>
+	<footer>	
+		<small>Copyright &copy; <time datetime="2014">2021</time>grox</small>
+	</footer>
+  <script src="js/lib/modernizr-3.11.2.min.js"></script>
+  <script src="js/lib/plugins.js"></script>
+  <script src="js/prj/main.js"></script>
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-210857385-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+</html>
