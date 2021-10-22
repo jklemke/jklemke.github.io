@@ -6,6 +6,12 @@
 @import url("media.css");
 @import url("font.css");
 @import url("article.css");
+
+/* Color CSS, uncomment if desired for debugging
+   ========================================================================== */
+/*@import url("debug-color.css");*/
+
+
 	 
 /* Generic Elements 
    ========================================================================== */
@@ -37,15 +43,13 @@ cite{display:block; text-align:right; padding-top: 10px;}
 
 div.main-wrapper {display:inline-block; width:75%; margin: 0 0 0 1%; border-right: thin dotted black; padding:0% 0% 0% 0%;}
 aside {display:inline-block; width:22%; float:right; }
-aside > header {margin: 0 0 0 0; padding: 0 0 0 0.5em; }
-aside > header  > *  {margin: 0 0 0 1%;}
-aside > header > nav  > ul {margin-top:0%;}
 
-body > header  > *  {margin-left:1%; margin-top: 0; }
-body > header > h1  {margin-bottom:0%; }
-body > header > nav  > ul {margin-top:0%; }
+body > header {margin: 0% 0% 2% 0%; }
+body > header > h1  {margin: 0% 0% 0% 2%; }
+body > header > nav  > ul {margin:0% 0% 0% 0%; }
 
 main { margin: 0% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
+main p { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
 
 section { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
 section > header { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
@@ -55,9 +59,19 @@ section > header > nav > ul { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
 section  > table { margin: 1% 0% 0% 1% ;  padding: 0% 0% 1% 0%; }
 
 article > header  {margin-left:1%; }
-article > p { margin: 0% 0% 0% 1% ;  padding: 0% 0% 0.5% 0%; }
+article > * { margin: 0% 0% 0% 1% ;  padding: 0% 0% 0.5% 0%; }
 
-body > footer  > *  {margin-left:1%; margin-top: 0; }
+aside header {margin: 0 0 0 0; padding: 0 0 0 0; }
+aside header h1 {margin: 0 0 0 0; padding: 0 0 0 0; }
+aside header nav {margin: 0 0 0 0; padding: 0 0 0 0; }
+aside header nav ul {margin: 0 0 0 0; padding: 0 0 0 0; }
+aside ul.asidelist {margin: 1% 0 0 0%; padding: 0 0 0 0; list-style-type: none;}
+aside ul.asidelist li {margin: 0 0 0 1%; padding: 0 0 0 0;}
+
+
+
+
+body > footer  > *  {margin-left:2%; margin-top: 0; }
 body > footer > h1  {margin-bottom:0%; }
 body > footer > nav  > ul {margin-top:0%; }
 

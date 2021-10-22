@@ -5,17 +5,20 @@ table
 {
    width: 98%; 
    margin-left: 1%;
+   margin-right: 1%;
    border-collapse: collapse;
 } 
 
 table table
 {
    margin-left: 0.25%;
+   margin-right: 0.25%;
 } 
 
 table, td, th 
 { 
    border: 1px solid gainsboro; 
+   margin-right: 1%;
 } 
 
 td, th 

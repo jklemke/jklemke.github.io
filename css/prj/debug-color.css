@@ -1,0 +1,39 @@
+/* debug-color.css can be enabled in core.css to display garish colors which make
+   it easier to identify particular elements of the page layout. 
+   Additionally, margin and padding can be adjusted here if desired for debugging,
+   but they are normally left in a disabled state by prefixing with "xxx"
+   ========================================================================== */
+
+   body  { background-color: blue; }
+   body > header {background-color: cornflowerblue; }
+   body > header > h1  { background-color: gray; }
+   body > header > nav  { background-color: yellowgreen; }
+
+   body > div.main-wrapper  { background-color: cornflowerblue; }
+   body > header > h1  { background-color: gray; }
+   body main { background-color: springgreen; }
+   xxxmain { margin: 1% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
+   body main p { background-color: gold; }
+
+   body section { background-color: lightsalmon; }
+   body section  h1,h2,h3,h4,h5,h6 { background-color: gray; }
+
+   body article { background-color: bisque; }
+   body article  h1,h2,h3,h4,h5,h6  { background-color: gray; }
+   
+   table { background-color: red; }
+   table tr { background-color: blueviolet; }
+   table tr th { background-color: lightcoral; }
+   xxxtable tr th { margin: 1% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
+   table tr td { background-color: orchid; }
+   xxxtable tr td { margin: 1% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
+
+   body aside {background-color: cornflowerblue; }
+   body aside header {background-color: blueviolet; }
+   body aside h1  { background-color: gray; }
+   body aside nav  { background-color:yellowgreen; }
+   body aside ul.asidelist  { background-color: lightsalmon; }
+
+   body > footer {background-color: cornflowerblue; }
+   body > footer small {background-color: lightsalmon; }
+   
