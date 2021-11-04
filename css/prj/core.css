@@ -9,7 +9,7 @@
 
 /* Color CSS, uncomment if desired for debugging
    ========================================================================== */
-/*@import url("debug-color.css");*/
+/* @import url("debug-color.css");*/
 
 
 	 
@@ -41,14 +41,14 @@ cite{display:block; text-align:right; padding-top: 10px;}
 /* Core Structure (margin and padding for body, header, main, aside, footer, section, article) 
    ========================================================================== */
 
-main {display:inline-block; width:73%; margin: 0 0 0 1%; border-right: thin dotted black; padding:0% 0% 0% 0%;}
-aside {display:inline-block; width:22%; float:right; }
+main {display:inline-block; width:70%; border-right: thin dotted black;}
+aside {display:inline-block; width:20%; float:right; }
 
 body > header {margin: 0% 0% 2% 0%; }
 body > header > h1  {margin: 0% 0% 0% 2%; }
 body > header > nav  > ul {margin:0% 0% 0% 0%; }
 
-main { margin: 0% 1% 1% 1% ;  padding: 1% 1% 1% 1%; }
+main { margin: 0% 1% 1% 5% ;  padding: 1% 1% 1% 1%; }
 main p { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
 
 section { margin: 0% 0% 1% 1% ;  padding: 0% 0% 0% 0%; }
