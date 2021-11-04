@@ -41,7 +41,7 @@ cite{display:block; text-align:right; padding-top: 10px;}
 /* Core Structure (margin and padding for body, header, main, aside, footer, section, article) 
    ========================================================================== */
 
-div.main-wrapper {display:inline-block; width:75%; margin: 0 0 0 1%; border-right: thin dotted black; padding:0% 0% 0% 0%;}
+main {display:inline-block; width:73%; margin: 0 0 0 1%; border-right: thin dotted black; padding:0% 0% 0% 0%;}
 aside {display:inline-block; width:22%; float:right; }
 
 body > header {margin: 0% 0% 2% 0%; }

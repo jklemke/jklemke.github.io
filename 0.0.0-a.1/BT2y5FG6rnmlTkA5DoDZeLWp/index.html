@@ -12,15 +12,15 @@
   <meta name="og:image" content="https://grox.info/img/Grox3.gif">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  <link rel="stylesheet" href="../css/lib/normalize.css">
-  <link rel="stylesheet" href="../css/lib/boilerplate.css">
-  <link rel="stylesheet" href="../css/prj/core.css">
+  <link rel="stylesheet" href="../../css/lib/normalize.css">
+  <link rel="stylesheet" href="../../css/lib/boilerplate.css">
+  <link rel="stylesheet" href="../../css/prj/core.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sumana">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Palanquin Dark">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Otomanopee One">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Code Pro">
-  <link rel="stylesheet" href="https://fontlibrary.org//face/go-mono" media="screen" type="text/css"/>
-  <link rel="author" href="../humans.txt" />
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/go-mono" type="text/css"/>
+  <link rel="author" href="../../humans.txt" />
   <meta name="theme-color" content="#fafafa">  
 </head>
 <body>
@@ -33,18 +33,27 @@
 			</ul>
 		</nav>
   </header>
-  <div class="main-wrapper">
     <main>
       <p>grox.info is an experiment in creating a knowledge graph for model theory vocabulary</p>
-      <article>
-        <h1>Token</h1>
+      <article id="note">
+        <h1 id="prefLabel">Token</h1>
+        <h2 id="definition">Definition</h2>
         <p>A word, a phoneme, an interpretable sequence of characters. It can be selected, chosen for interpretation. It has token identity. A = A.</p>
+        <h2 id="altLabel">Related vocabulary</h2>
+        <p>exactMatch, nearMatch, narrowMatch, broadMatch, relatedMatch</p>
+        <h2 id="editorialNote">Discussion</h2>
+        <p>compare information</p>
+        <h2 id="example">Example</h2>
+        <h3 id="changeNote">Change Note</h3>
+        <h3 id="historyNote">History</h3>
+        <h3 id="scopeNote">Scope</h3>
         <table class="table table-bordered">
           <thead>
             <tr>
               <th>groxid</th>
               <th>prefLabel</th>
               <th>Description</th>
+              <th>Phoenician</th>
             </tr>
           </thead>
           <tbody>
@@ -52,18 +61,34 @@
               <td>BT2y5FG6rnmlTkA5DoDZeLWp</td>
               <td>token</td>
               <td>A word, a phoneme, an interpretable sequence of characters. It can be selected, chosen for interpretation. It has token identity. A = A.</td>
+              <td><span>&#x10901;</span>&nbsp;<span>&#x10908;</span></td>
             </tr>
           </tbody>
         </table>
       </article>
     </main>
-  </div>
-	<footer role="contentinfo">	
+    <aside>		
+      <header>
+        <h1>What is grox.info</h1>
+        <nav>
+          <ul class="navlist">
+            <li><a href="#">Link1</a></li>
+            <li><a href="#">Link2</a></li>
+          </ul>
+        </nav>
+      </header>
+      <ul class="asidelist">
+        <li>Aside item</li>
+        <li>Aside item</li>
+        <li>Aside item</li>
+      </ul>			
+    </aside>
+    <footer role="contentinfo">	
 		<small>Copyright &copy; <time datetime="2014">2021</time> grox LLC</small>
 	</footer>
-  <script src="../js/lib/modernizr-3.11.2.min.js"></script>
-  <script src="../js/lib/plugins.js"></script>
-  <script src="../js/prj/main.js"></script>
+  <script src="../../js/lib/modernizr-3.11.2.min.js"></script>
+  <script src="../../js/lib/plugins.js"></script>
+  <script src="../../js/prj/main.js"></script>
   <script>
     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
     ga('create', 'UA-210857385-1', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
