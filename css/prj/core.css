@@ -60,8 +60,10 @@ section > header > nav > ul { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
 section  > table { margin: 1% 0% 0% 1% ;  padding: 0% 0% 1% 0%; }
 
 article {margin-top: 1%;}
-article > header  {margin-left:0%; }
-article > * { margin: 0% 0% 0% 1% ;  padding: 0% 0% 0.5% 0%; }
+article > header  {margin-left:0%; margin-bottom: 2%; }
+article > header p { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0% 0%; }
+article h1, h2, h3, h4, h5, h6 { margin: 0% 0% 0% 0% ;  padding: 0% 0% 0.5% 0%; }
+article p { margin: 0% 0% 0% 1% ;  padding: 0% 0% 2% 0%; }
 
 
 aside header {margin: 0 0 0 0; padding: 0 0 0 0; }

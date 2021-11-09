@@ -7,5 +7,5 @@ h2, h3, h4, h5, h6 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans 
 td, th {font-family: 'GoMonoRegular', 'Source Code Pro', 'Lucida Console',  'Courier New', Courier, monospace}
 
 article h1, h2, h3, h4, h5, h6 {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
-article > header > p {font-family: 'Otomanopee One','Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+article > header > p > span {font-family: 'Otomanopee One','Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
 article > header > p > small {font-family: 'Palanquin Dark', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
